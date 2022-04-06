@@ -20,7 +20,7 @@ do
     mkdir $p
     cd $p
     echo -n > input.txt
-    echo $template > Main.cpp
+    cat $HOME/kyopro_practice/template.cpp > Main.cpp
     cd ..
 done
 
