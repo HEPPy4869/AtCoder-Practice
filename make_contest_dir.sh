@@ -13,7 +13,7 @@ echo "Contest : "$contest_name >> metadata
 echo "URL : https://atcoder.jp/contests/abc"$contest_num >> metadata
 echo "Author : HEPPy4869" >> metadata
 echo "Created : "$date >> metadata
-echo "Passed : "
+echo "Passed : " >> metadata
 
 
 for p in {A..H}
