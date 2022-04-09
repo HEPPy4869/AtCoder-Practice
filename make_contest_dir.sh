@@ -22,6 +22,7 @@ do
     cd $p
     echo -n > input.txt
     cat $HOME/kyopro_practice/template.cpp > Main.cpp
+    cat $HOME/kyopro_practice/template.sh > run.sh
     cd ..
 done
 
