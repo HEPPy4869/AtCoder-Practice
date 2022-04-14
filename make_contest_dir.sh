@@ -6,6 +6,10 @@ date=$( date "+%Y/%m/%d" )
 template=`cat template.cpp`
 
 cd Contests
+if [ -d "$contest_name" ]; then
+    echo $contest_name" already exists"
+    exit 0
+fi
 mkdir "$contest_name"
 cd "$contest_name"
 
