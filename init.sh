@@ -11,6 +11,7 @@ do
     do
         cd $p
         cat $HOME/kyopro_practice/template.sh > run.sh
+        echo -n > input.txt
         cd ..
     done
     cd ..
