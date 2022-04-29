@@ -6,7 +6,6 @@ contest_list=()
 for dirpath in $search_dir;
 do
     cd "$dirpath"
-    echo $dirpath
     for p in {A..H}
     do
         cd $p
