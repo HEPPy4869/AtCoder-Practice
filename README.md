@@ -1,5 +1,5 @@
-#AtCoder Practice
+#　AtCoder Practice
 cloneしたときに入力とrunを生やす用
-'''sh
+```sh
     bash init.sh
-'''
+```
