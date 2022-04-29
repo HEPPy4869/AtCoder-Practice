@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd Contests
-search_dir="$HOME/kyopro_practice/Contests/*"
+search_dir="$HOME/AtCoder-Practice/Contests/*"
 contest_list=()
 for dirpath in $search_dir;
 do
@@ -9,7 +9,7 @@ do
     for p in {A..H}
     do
         cd $p
-        cat $HOME/kyopro_practice/template.sh > run.sh
+        cat $HOME/AtCoder-Practice/template.sh > run.sh
         echo -n > input.txt
         cd ..
     done
