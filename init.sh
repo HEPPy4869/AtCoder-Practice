@@ -15,3 +15,19 @@ do
     done
     cd ..
 done
+
+cd ..
+cd Practice
+cd Seisen100
+for p in {1..100}
+do
+    dir=$p
+    for ((i=0;i<3-${#p};i++))
+    do
+        dir=0$dir
+    done
+    cd $dir
+    cat $HOME/AtCoder-Practice/template.sh > run.sh
+    echo -n > input.txt
+    cd ..
+done
