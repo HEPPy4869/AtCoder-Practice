@@ -31,3 +31,19 @@ do
     echo -n > input.txt
     cd ..
 done
+
+cd ..
+cd Tenkei90
+for p in {1..90}
+do
+    dir=$p
+    for ((i=0;i<3-${#p};i++))
+    do
+        dir=0$dir
+    done
+    mkdir $dir
+    cd $dir
+    cat $HOME/AtCoder-Practice/template.sh > run.sh
+    echo -n > input.txt
+    cd ..
+done
