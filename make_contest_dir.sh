@@ -30,3 +30,6 @@ do
     cd ..
 done
 
+cd ../..
+git add ./Contests/"$contest_name"/.
+git commit -m "$contest_name"
